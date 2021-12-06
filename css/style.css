@@ -1,0 +1,88 @@
+.cover {
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  background: url(../img/firstview.jpg) no-repeat top;
+  background-size: cover;
+  height: 400px;
+  width: 1000px;
+  position: relative;
+}
+.title {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+}
+
+.about {
+  max-width: 1000px;
+  text-align: center;
+  margin-top: 70px;
+}
+.about__title {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.blog {
+  margin-top: 70px;
+  max-width: 1000px;
+}
+.blog__title {
+  text-align: center;
+  font-size: 25px;
+}
+.blog__container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.blog__card {
+  width: 30%;
+  margin-left: 5%;
+}
+.blog__img img {
+  width: 100%;
+}
+.blog__text {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.info {
+  margin-top: 70px;
+  max-width: 1000px;
+}
+.info__title {
+  text-align: center;
+  font-size: 25px;
+}
+.info__container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.info__text {
+  text-align: left;
+  border-collapse: separate; /*行間*/
+  border-spacing: 100px 10px;
+}
+
+input[type="reset"] {
+  width: 200px;
+  background-color: rgb(247, 241, 241);
+  border-style: none;
+}
+
+input[type="submit"] {
+  margin-left: 20px;
+  width: 200px;
+  background-color: turquoise;
+  color: white;
+  border-style: none;
+}
+.btn {
+  margin-bottom: 100px;
+  text-align: center;
+}

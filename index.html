@@ -1,11 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>css-yamada</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
 </head>
 <body>
+  <div class="cover">
+    <h1 class="title">
+      キャッチコピー
+    </h1>
+  </div>
+  <div class="about">
+    <h2 class="about__title">Abaut</h2>
+    <p class="abaout__text">COACHTECH(コーチテック)はフリーランス特化型のオンラインコーチングプログラミングスクールです。<br>プログラミング未経験の方でも、<strong>「独自の学習ノウハウ」</strong>でフリーランスエンジニアを目指すことができます。</p>
+  </div>
+
+  <div class="blog">
+    <h2 class="blog__title">ブログ</h2>
+    <div class="blog__container">
+      <div class="blog__card">
+        <a class="blog__img">
+          <img src="img/blog__eyecatch1.jpg"href="">
+        </a>
+        <p class="blog__text">
+          コーチテックブログのタイトルがここに入ります。
+        </p>
+      </div>
+      <div class="blog__card">
+        <a class="blog__img">
+          <img src="img/blog__eyecatch2.jpg" href="">
+        </a>
+        <p class="blog__text">
+          コーチテックブログのタイトルがここに入ります。
+        </p>
+      </div>
+      <div class="blog__card">
+        <a class="blog__img">
+          <img src="img/blog__eyecatch3.jpg" href="">
+        </a>
+        <p class="blog__text">
+          コーチテックブログのタイトルがここに入ります。
+        </p>
+      </div>
+    </div>
+  </div>
+
+<!--info-->
+<div class="info">
+  <h2 class="info__title">お問い合わせ</h2>
+  <div class="info__container">
+    <form action="">
+      <table class="info__text">
+        <tr>
+          <th>名前</th>
+          <td><input type="text" name="name" size="50"></td>
+        </tr>
+        <tr>
+          <th>メールアドレス</th>
+          <td><input type="email" name="name" size="50"></td>
+        </tr>
+        <tr>
+          <th>用件</th>
+          <td>
+            <select name="select">
+              <option value="">広告掲載について</option>
+              <option value="">広告掲載について</option>
+              <option value="">広告掲載について</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th>内容</th>
+          <td>
+            <textarea name="textarea" cols="50" rows="15"></textarea>
+          </td>
+        </tr>
+      </table>
+      <div class="btn">
+      <input type="reset" value="取消">
+      <input type="submit">
+    </div>
+    </form>
+  </div>
+</div>
   
+
+
 </body>
+
 </html>
