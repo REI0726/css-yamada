@@ -35,11 +35,11 @@
 .blog__container {
   margin-top: 20px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 .blog__card {
   width: 30%;
-  margin-left: 5%;
+  margin: 0 20px auto;
 }
 .blog__img img {
   width: 100%;
